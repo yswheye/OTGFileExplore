@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/view_item_selector"
+     >
+    
+	<TextView 
+	    android:id="@+id/tv_main_left_item_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20dip"
+	    android:layout_alignLeft="@+id/pb_main_left_item_size"
+	    android:singleLine="true"
+	    android:layout_marginTop="15dip"
+	    />
+	<ProgressBar 
+        android:id="@+id/pb_main_left_item_size"
+        android:layout_width="fill_parent"
+	    android:layout_height="15dip"
+	    style="@style/progressBarHorizontal_color"
+	    android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_below="@+id/tv_main_left_item_name"
+	    />
+	<TextView 
+	    android:id="@+id/tv_main_left_item_size"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="12dip"
+	    android:layout_centerHorizontal="true"
+	    android:singleLine="true"
+	    android:layout_below="@+id/pb_main_left_item_size"
+	    android:layout_alignLeft="@+id/pb_main_left_item_size"
+	    />
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dip"
+	    android:layout_below="@+id/tv_main_left_item_size"
+	    android:layout_marginTop="15dip"
+	    />
+    
+	<ImageView 
+        android:id="@+id/iv_main_left_item"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:focusable="false"
+        android:visibility="gone"
+        android:clickable="false"
+        android:background="@drawable/item_delete"
+        />
+    
+</RelativeLayout>

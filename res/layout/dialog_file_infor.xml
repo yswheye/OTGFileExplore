@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/dialog_file_infor_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:layout_centerInParent="true"
+    	android:layout_marginLeft="30dip"
+    	android:layout_marginRight="30dip"
+    	android:background="@drawable/style_dialog_bg"
+        >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_centerInParent="true"
+        	android:orientation="vertical"
+            >
+            <TextView 
+	            android:id="@+id/tv_dialog_file_infor_title"
+	            android:layout_width="fill_parent"
+	        	android:layout_height="60dip"
+	    		android:layout_marginBottom="5dip"
+	        	android:textSize="25dip"
+	        	android:gravity="center"
+	        	android:singleLine="true"
+	        	android:ellipsize="middle"
+	        	android:textColor="@color/holo_blue"
+	            />
+            <View 
+		        android:id="@+id/file_infor_dialog_seperator_0"
+		        android:layout_width="fill_parent"
+		        android:layout_height="2dip"
+		        android:background="@color/holo_blue"
+		        />
+            <ListView 
+                android:id="@+id/lv_dialog_file_infor"
+                android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:divider="@color/separator_1"
+	        	android:dividerHeight="1dip"
+                ></ListView>
+            <View 
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dip"
+		        android:background="@color/separator"
+		        />
+            <Button 
+		        android:id="@+id/btn_file_infor_dialog_confirm"
+		        android:layout_width="fill_parent"
+		        android:layout_height="45dip"
+		        android:text="@string/common_confirm"
+		        android:textSize="18dip"
+		        android:background="@drawable/selector_button_bg"
+		        />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

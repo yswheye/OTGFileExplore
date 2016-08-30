@@ -1,0 +1,144 @@
+<resources>
+
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <!-- 设置未浮动窗口 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置完全透明 -->
+        <item name="android:windowBackground">@color/sc_transparent_background</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        
+    </style>
+    
+	<style name="D6_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff727475</item>
+        <item name="android:shadowColor">#ccffffff</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+    <style name="A1_Font">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+    <style name="A2_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+    <style name="A3_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+    <style name="A4_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+    <style name="A5_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="A6_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+    <style name="A7_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="A8_Font">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+        <item name="android:shadowColor">#88ffffff</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+
+    <style name="progressBarHorizontal_color" parent="android:Widget.ProgressBar.Horizontal">
+		<item name="android:indeterminateOnly">false</item>
+		<item name="android:progressDrawable">@drawable/progress_color_horizontal</item>
+	</style>
+	
+    <style name="SelectCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/style_checkbox</item>
+    </style>  
+
+    
+    <!-- activity animation -->
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimBottom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/dialog_enter_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_to_bottom</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimTop" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/dialog_enter_from_top</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_to_top</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimTopToBottom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/dialog_enter_from_top</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_to_bottom</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimBottomToTop" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/dialog_enter_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_to_top</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimZoom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/unzoom_in</item>
+        <item name="android:windowExitAnimation">@anim/unzoom_out</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimLetfToRight" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_out</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimLetf" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_left_out</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimRight" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_out</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimAlph" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+	</style>
+    <style name="AppTheme" parent="android:Theme.Light" />      
+    	<style name="AnimMoveAndZoom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/translate_zoom</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+	</style>
+    
+</resources>

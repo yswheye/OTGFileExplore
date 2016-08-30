@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MSI文件浏览</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="share_to_friend">分享给好友</string>
+    <string name="select_all">全选</string>
+    <string name="select_all_cancel">全不选</string>
+    <string name="delete_success">删除完成</string>
+    <string name="file_not_exsit">文件不存在</string>
+    <string name="no_permission">没有权限</string>
+    <string name="from_dir">从:&#160;</string>
+    <string name="to_dir">到:&#160;</string>
+    <string name="total">总共:&#160;</string>
+    <string name="finished">完成:&#160;</string>
+    <string name="local_disk_inside">内部存储</string>
+    <string name="local_disk">我的磁盘</string>
+    <string name="local_file">文件:&#160;</string>
+    <string name="local_folder">文件夹:&#160;</string>
+    <string name="common_data_loading">加载中&#8230;</string>
+    <string name="common_exit_hint">再按一次退出MSI文件浏览器</string>
+    <string name="common_search">搜索</string>
+    <string name="common_create_dir">新建文件夹</string>
+    <string name="please_select_other">请选择其他文件夹</string>
+    <string name="common_sort">排序</string>
+    <string name="common_return">返回</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_success">成功</string>
+    <string name="common_paste">粘贴</string>
+    <string name="common_new">新建</string>
+    <string name="common_fail">失败</string>
+    <string name="common_eidt">编辑</string>
+    <string name="common_hide">隐藏</string>
+    <string name="edit_safe">安全移除</string>
+    <string name="common_format">格式化</string>
+    <string name="common_remove">移除</string>
+    <string name="common_set">设置</string>
+    <string name="common_next">下拉</string>
+    <string name="common_clear_cache">清除缓存</string>
+    <string name="common_clear_cache_cinfirm">确定清除本地缓存吗?</string>
+    <string name="common_clear_cache_loading">正在清理&#8230;</string>
+    <string name="common_clear_cache_finish">清除完成</string>
+    <string name="common_filter_pic">过滤小于30K的图片</string>
+    <string name="common_clear_cahces">清除图片和视频缓存</string>
+    <string name="common_help">用户须知</string>
+    <string name="common_selected">已选择&#160;:&#160;</string>
+    <string name="edit_delete">删除</string>
+    <string name="edit_delete_working">正在删除&#8230;</string>
+    <string name="edit_copy">复制</string>
+    <string name="edit_cut">剪切</string>
+    <string name="edit_zip">压缩</string>
+    <string name="edit_rename">重命名</string>
+    <string name="edit_detail">详情</string>
+    <string name="delete_files_1">确定删除这&#160;</string>
+    <string name="delete_files_2">&#160;个文件吗?</string>
+    <string name="folder_has_exist">文件夹已存在</string>
+    <string name="create_success">创建成功</string>
+    <string name="create_fail">创建失败</string>
+    <string name="please_input_name">请输入文件名</string>
+    <string name="search_result">搜索结果&#160;:&#160;</string>
+    <string name="search_start">正在搜索</string>
+    <string name="check_update">检查更新</string>
+    <string name="check_update_searching">正在检查新版本&#8230;</string>
+    <string name="zip_to_current_folder">压缩至当前文件夹吗?</string>
+    <string name="zip_compressing">正在压缩&#8230;</string>
+    <string name="zip_finish">压缩完成</string>
+    <string name="common_write_permission">没有写权限</string>
+    <string name="common_no_space">空间不够,请删除部分文件</string>
+    <string name="zip_save">保存</string>
+    <string name="zip_save_to">另存为</string>
+    <string name="select_dirs">选择目录</string>
+    <string name="storage_alert_title">设备操作</string>
+    <string name="storage_alert_infor">设备没有系统权限，将进入系统设置安全操作存储设备</string>
+    <string name="storage_alert_notice">为了防止设备损坏，请在拔出设备前先卸载</string>
+    <string name="remove_fail">卸载失败</string>
+    <string name="can_not_remove_memstorage">不能卸载内部存储</string>
+    <string name="remove_title">设备移除</string>
+    <string name="remove_infor">确定移除该设备吗?</string>
+    <string name="please_select_folder">请选择目录</string>
+    <string name="transfer_is_working">正在传送&#8230;</string>
+    <string name="preparing">初始化中&#8230;</string>
+    
+    <string name="help_infor1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;欢迎使用MSI文件浏览器，为了本软件能够更好的为您服务，请您认真阅读下面内容</string>
+    <string name="help_infor2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本软件用于U盘、SD卡等移动存储设备文件浏览、以及文件拷贝，解决用户在没有电脑的情况下
+                               可以查看、操作U盘等移动存储设备中的文件;为了保护您的手机和存储设备，请您在拔出设备之前先“安全移除”，
+                              根据提示进入系统设置中安全移除存储设备。</string>
+    <string name="help_infor3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本软件需要配合对应的数据线使用，数据线购买地址:</string>
+    <string name="help_infor4">http://blog.csdn.net/fireworkburn</string>
+    <string name="help_infor5">如果您有什么建议或需求，可通过以下方式联系：</string>
+    <string name="help_infor6">qq:253815347  email:yuyan19850204@sina.com</string>
+    <string name="help_infor7">感谢您的使用!</string>
+    
+    <string-array name="Settings">
+        <item>用户须知</item>
+        <item>缩略图显示</item>
+        <item>隐藏文件</item>
+        <item>过滤小图片</item>
+        <item>文件排序</item>
+        <item>清除缓存</item>
+        <item>后台进度</item>
+    </string-array>
+    
+    <string-array name="FileInfor">
+        <item>删除</item>
+        <item>复制</item>
+        <item>剪切</item>
+        <item>压缩</item>
+        <item>重命名</item>
+        <item>详情</item>
+    </string-array>
+    <string-array name="FileDetail">
+        <item>名称</item>
+        <item>类型</item>
+        <item>大小</item>
+        <item>最新修改时间</item>
+        <item>路径</item>
+    </string-array>
+    <string-array name="FolderDetail">
+        <item>名称</item>
+        <item>类型</item>
+        <item>大小</item>
+        <item>最新修改时间</item>
+        <item>内容</item>
+        <item>路径</item>
+    </string-array>
+    
+</resources>
